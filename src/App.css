@@ -1,0 +1,52 @@
+#root {
+  margin: 0 auto;
+  max-width: 50vw;
+  font-family: Roboto, sans-serif;
+}
+
+.header-centered {
+  text-align: center;
+  padding: 32px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 24px;
+}
+
+section img {
+  width: 80px;
+  height: 120px;
+  border-radius: 4px;
+}
+
+section div:first-child {
+  width: 10vw;
+  font-weight: 700;
+}
+
+section div:last-child {
+  padding-left: 24px;
+}
+
+section p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+section span {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.text-red {
+  color: red;
+}
